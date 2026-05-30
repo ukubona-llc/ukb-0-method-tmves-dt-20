@@ -336,6 +336,7 @@ Raw Events
 State_t = Σ Event_i
     ↓
 [PFC: LLM API inference on novel]
+```
 
 ## II
 Pentadic enforcement: 
@@ -345,7 +346,7 @@ II. Nuclei: Thalamic / Basal Ganglia (Fast, Rituals)
 III. Hippocampus / GitHub & NDJSON
 IV. State_t = Σ Event_i / PFC: LLM API inference on novel Events (Slow, Costly)
 V. Corticospinal / Modulation
-```
+
 
 ---
 
@@ -359,7 +360,7 @@ V. Corticospinal / Modulation
 │    • Pain diary entry: {t, location, score, context}        │
 │    • Vital sign: {t, BP, HR, temp}                          │
 │    • Lab result: {t, value, unit, ref_range}                │
-│    • Unfiltered, timestamped, immutable                      │
+│    • Unfiltered, timestamped, immutable                     │
 └────────────────────┬────────────────────────────────────────┘
                      ↓
 ┌─────────────────────────────────────────────────────────────┐
