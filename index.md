@@ -648,11 +648,14 @@ Which layer needs engineering first?
 What's your current bottleneck?
 
 ## III
-I. CHRO
-II. COO
-III. CFO
+
+```sh
+I. CHRO       
+II. COO        
+III. CFO      
 IV. CEO
 V. CCO
+```
 
 ---
 
