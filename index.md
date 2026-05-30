@@ -647,7 +647,7 @@ Which layer needs engineering first?
 
 What's your current bottleneck?
 
-## III
+## [III](https://hr-twin-ui.onrender.com/)
 
 ```sh
 I. CHRO       
@@ -656,6 +656,12 @@ III. CFO
 IV. CEO
 V. CCO
 ```
+
+- Sovereignty/Hires
+- Values
+- Legality
+- Ethics
+- Compliance/Regulators       
 
 ---
 
