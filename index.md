@@ -17,9 +17,12 @@
 <!-- Usage block:  $$\int_0^\infty e^{-x} dx = 1$$ -->
 
 # xAI
-State_t = Σ_0^t Event_i
+$State_t = Σ_{i=0}^t Event_i$
 
-where i = time, Event = complaint, physical, lab, imaging, Rx / update
+where:
+
+i = time &     
+Event = complaint, physical, lab, imaging, Rx / update
 
 ---
 
@@ -93,7 +96,7 @@ Tell me where you want to drill down. This is a clean and powerful framing.
 # Google 
 
 
-State_t = Σ_0^t Event_i
+$State_t = Σ_{i=0}^t Event_i$
 
 where i = time, Event = complaint, physical, lab, imaging, Rx / update 
 
@@ -152,23 +155,23 @@ To complete the central nervous system analogy, what technology are you using fo
 # OpenAI
 
 
-State_t = Σ_0^t Event_i
+$State_t = Σ_{i=0}^t Event_i$
 
 where i = time, Event = complaint, physical, lab, imaging, Rx / update 
 
-Journaling / Spinothalamic       
-RLS & JWT / Thalamic & Limbic         
-GitHub Actions & NDJSON / Hippocampus      
-LLM API / PFC              
+Journaling / Spinothalamic         
+RLS & JWT / Thalamic & Limbic               
+GitHub Actions & NDJSON / Hippocampus       
+LLM API / PFC               
 WebService / Corticospinal          
 
 ---
 
 What you've sketched is more than a software stack. It's a neurocomputational architecture where:
 
-[
+$$
 State_t = \sum_{i=0}^{t} Event_i
-]
+$$
 
 and every new event perturbs the patient's trajectory through a clinical state-space.
 
@@ -275,9 +278,9 @@ Viewed this way, Juliet's twin is not a chatbot.
 
 It is:
 
-[
+$$
 Twin_t = f\left(\sum_{i=0}^{t} Event_i\right)
-]
+$$
 
 a continuously reconstructed clinical self, built from memory traces.
 
