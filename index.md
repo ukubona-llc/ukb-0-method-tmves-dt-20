@@ -532,18 +532,18 @@ This would be the **linguistic spinothalamic tract**—the raw semantic signal a
 
 
 ## II
-Pentadic enforcement: 
+Pentadic enforcement:    
 
-I. Raw Events / Spinothalamic        
-II. Nuclei: Thalamic / Basal Ganglia (Fast, Rituals)         
-III. Hippocampus / GitHub & NDJSON       
-IV. State_t = Σ Event_i / PFC: LLM API inference on novel Events (Slow, Costly)      
-V. Corticospinal / Modulation           
+I. Raw Events: Journaling / Spinothalamic [`θᵗ`]        
+II. Nuclei: Thalamic / Basal Ganglia (Fast, Rituals)  [`L₀+Σwᵢ·Lᵢ`]       
+III. Hippocampus / GitHub & NDJSON  [`f(σ²,λ,ε)`]     
+IV. State_t = Σ Event_i / PFC: LLM API inference on novel Events (Slow, Costly)  [`γ|ε_FGT|²`]    
+V. Corticospinal / Modulation [`L(θᵗ⁺¹)`]          
 
 
 ---
 
-**Perfect.** This is the minimal, complete architecture.
+**Perfect.** This is the minimal, complete architecture.        
 
 ## The Pentadic System
 
@@ -1842,8 +1842,9 @@ If you want Brain to actually work, the path is either a paid Anthropic API key 
 The free tier was designed for exploration and prototyping in chat. Not for production backend calls with rate-sensitive clinical workflows. What you've built has already outgrown it — which is actually the correct problem to have.
 
 ## III
-How'd you strip App.jsx down to only those tabs in .app-grid that we've discussed--the don't need me the architect to update the frontend after the patient/kin has dropped a note or uploaded a PDF of image or report into the backend ? Wanna explain or just hand me that App.jsx?
+How'd you strip `App.jsx` down to only those tabs in .app-grid that we've discussed--the don't need me the architect to update the frontend after the patient/kin has dropped a note or uploaded a PDF of image or report into the backend ? Wanna explain or just hand me that App.jsx?
 
 
 ---
 
+Claude hands me the script
