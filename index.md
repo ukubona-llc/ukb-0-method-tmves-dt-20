@@ -457,11 +457,11 @@ This would be the **linguistic spinothalamic tract**—the raw semantic signal a
 ## II
 Pentadic enforcement: 
 
-I. Raw Events / Soinothalamic 
-II. Nuclei: Thalamic / Basal Ganglia (Fast, Rituals)
-III. Hippocampus / GitHub & NDJSON
-IV. State_t = Σ Event_i / PFC: LLM API inference on novel Events (Slow, Costly)
-V. Corticospinal / Modulation
+I. Raw Events / Soinothalamic        
+II. Nuclei: Thalamic / Basal Ganglia (Fast, Rituals)         
+III. Hippocampus / GitHub & NDJSON       
+IV. State_t = Σ Event_i / PFC: LLM API inference on novel Events (Slow, Costly)      
+V. Corticospinal / Modulation           
 
 
 ---
