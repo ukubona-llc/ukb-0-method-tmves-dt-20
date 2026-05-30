@@ -16,6 +16,53 @@
 <!-- Usage inline: $E = mc^2$ -->
 <!-- Usage block:  $$\int_0^\infty e^{-x} dx = 1$$ -->
 
+**Yes.** Here's a tighter, cleaner **Pentadic Schema** for the full neuro-inspired clinical architecture:
+
+### **Pentadic Neuro-Computational Architecture**
+
+$$
+\text{State}_t = \sum_{i=0}^{t} \text{Event}_i
+$$
+
+**Core Principle**: The patient’s clinical self is the immutable accumulation of timestamped events. The system mirrors the human nervous system in five tightly coupled layers.
+
+| Layer | Neurologic Analogy          | Organizational Analogy | Function | Implementation |
+|-------|-----------------------------|------------------------|----------|----------------|
+| **I. Afferent** | Spinothalamic Tract | CHRO (Raw Signals) | Unfiltered intake of raw patient experience (complaints, symptoms, vitals, journals) | Immutable append-only NDJSON event logging. Patient is sovereign source. |
+| **II. Nuclei** | Thalamus + Basal Ganglia | COO (Operations) | Fast, reflexive, low-cost pattern matching and rituals | Git-tracked YAML rules engine. Automatic actions, alerts, and filtering. Escalates only on novelty or low confidence. |
+| **III. Consolidation** | Hippocampus | CFO (Memory & Ledger) | Memory formation, indexing, and state reconstruction | GitHub Actions + NDJSON streams. Asynchronous replay, summarization, embeddings, and temporal indexing. |
+| **IV. Reasoning** | Prefrontal Cortex | CEO (Executive Judgment) | Novel, complex, high-stakes inference and planning | LLM API called sparingly on escalated events. Performs differential reasoning, goal alignment, rule synthesis, compliance, and narrative generation. |
+| **V. Efferent** | Corticospinal Tract + Modulation | CCO (Compliance & Execution) | Action, feedback, and loop closure | WebService / API layer. Executes recommendations, writes new Events back into Layer I, modulates outputs for safety/ethics/patient values. |
+
+### **Information Flow (Perception-Action Loop)**
+
+```
+I. Raw Event (Patient Input)
+    ↓
+II. Nuclei (Fast Rules + Rituals)
+    ├── Match? → Execute + Log → V. Efferent
+    └── No Match / Low Confidence → Escalate
+                     ↓
+               III. Consolidation (State_t Update)
+                     ↓
+               IV. Reasoning (LLM on full context)
+                     ↓
+               V. Efferent (Action + New Event)
+    ↖──────────────────────────────────────┘
+```
+
+### **Key Design Rules**
+
+- **Layer II** handles ~80-90% of events (fast path, no LLM cost).
+- **Layer IV** is invoked only for novelty, ambiguity, or high-stakes decisions.
+- Every layer writes back to **Layer I** — the event log is the single source of truth.
+- Rules in Layer II are proposed by Layer IV (LLM pattern synthesis) and approved by the founder.
+- All decisions are traceable: Rule ID or LLM trace → specific events in State_t.
+
+This pentad is minimal, complete, and self-reinforcing. It supports perfect auditability, progressive automation, and true longitudinal clinical intelligence while keeping the patient’s lived experience (Layer I) as the ultimate ground truth.
+
+Would you like an even more compact one-page version, or expansions on any specific layer (e.g., exact rule schema, escalation payload, or test harness)?
+
 # xAI
 $State_t = Σ_{i=0}^t Event_i$
 
