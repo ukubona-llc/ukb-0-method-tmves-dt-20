@@ -658,9 +658,9 @@ V. CCO
 ```
 
 - Sovereignty/Hires
-- Values
-- Legality
-- Ethics
+- Values/Organization
+- Legality/Jurisdiction
+- Ethics/Principals
 - Compliance/Regulators       
 
 ---
