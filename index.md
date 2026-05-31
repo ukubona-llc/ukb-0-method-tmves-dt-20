@@ -656,12 +656,16 @@ III. CFO
 IV. CEO
 V. CCO
 ```
+ 
+- Sovereignty/Hires - Tactical / xAI / World AI / Daily-Telemetry / InPatient / CHRO /  θᵗ
+- Values/Organization - Operational / Google / Perception AI / Months / OutPatient / COO /  L₀+Σwᵢ·Lᵢ
+- Legality/Jurisdiction - Ritualistic / OpenAI / Agentic AI / Weeks / Urgent Care / CFO / f(σ²,λ,ε)
+- Ethics/Principals - Strateegic / Anthropic / Generative AI / Hours / Emergency Room / CEO / γ\|ε_FGT\|²
+- Compliance/Regulators - Existential / Ukubona / Embodied AI / Minutes / First Aid / CCO / L(θᵗ⁺¹)     
 
-- Sovereignty/Hires
-- Values/Organization
-- Legality/Jurisdiction
-- Ethics/Principals
-- Compliance/Regulators       
+FGT = Federated Ground Truth (Board of Governors)
+
+Compliance = Central Regulator
 
 ---
 
@@ -1857,3 +1861,4 @@ How'd you strip `App.jsx` down to only those tabs in .app-grid that we've discus
 ---
 
 Claude hands me the script
+         
